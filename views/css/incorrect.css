@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Specify 'Poppins' font as the primary font family, with a fallback to sans-serif */
+    font-weight: 300; /* Set the font weight to 300 (light) */
+    font-size: 1.05rem; /* Set the base font size to 1.05rem */
+    line-height: 1.6; /* Set the line height to 1.6 */
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #d65108;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+.message {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.message p {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

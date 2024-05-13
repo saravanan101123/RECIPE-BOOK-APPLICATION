@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Specify 'Poppins' font as the primary font family, with a fallback to sans-serif */
+    font-weight: 300; /* Set the font weight to 300 (light) */
+    font-size: 1.05rem; /* Set the base font size to 1.05rem */
+    line-height: 1.6; /* Set the line height to 1.6 */
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #d65108;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 2px solid #d65108;
+    background-color: transparent;
+    color: #333;
+    font-size: 1.1em;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.form-group input[type="text"]::placeholder,
+.form-group input[type="email"]::placeholder,
+.form-group input[type="password"]::placeholder {
+    color: #999;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus {
+    outline: none;
+    border-bottom-color: #b53c00;
+}
+
+.form-group .signup-button {
+    background-color: #d65108;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group .signup-button:hover {
+    background-color: #b53c00;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
